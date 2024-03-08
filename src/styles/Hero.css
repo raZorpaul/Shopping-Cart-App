@@ -1,0 +1,43 @@
+.hero{
+    min-width: 95vw;
+    min-height: 50vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.heroContainer {
+    /* background-color: red; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 900px;
+}
+
+.heroTitle {
+    font-size: 40px;
+    width: 800px;
+    text-align: center;
+    font-weight: 900;
+}
+
+.addToCartButton {
+    user-select: none;
+    width: 100px;
+    text-align: center;
+    font-weight: 800;
+}
+ .addToCartButton a {
+    color: white;
+ }
+
+ .addToCartButton a:hover {
+    color: white;
+ }
+
+.heroparagraph {
+    font-size: 20px;
+}
